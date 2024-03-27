@@ -1,4 +1,4 @@
-#Levels of Abstraction in Programming Languages:
+# Levels of Abstraction in Programming Languages:
 
 Programming languages can be categorized based on their level of abstraction, which defines how closely the language aligns with machine code and hardware architecture. These levels of abstraction include:
 
