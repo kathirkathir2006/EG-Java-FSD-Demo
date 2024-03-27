@@ -18,3 +18,8 @@ These languages provide a high level of abstraction from the hardware details, f
 They are closer to human language and are easier to understand and use.
 
 **Examples include Python, Java, JavaScript, and Ruby.**
+
+Abstraction: Internal Working - how its done rather than what we do
+
+  **eg:** ### saving a file with Notepad 
+      Here we dont know how its saving the file in memory or what form will it be in inside memory etc.
