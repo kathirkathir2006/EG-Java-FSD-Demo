@@ -105,3 +105,105 @@ class Student {
     play()
 }
 ```
+### DAY 2
+
+**Title**: Understanding Object-Oriented Concepts through Real-world Examples
+
+**1. Introduction to Objects:**
+
+Objects are real-world entities characterized by physical existence and tangibility.
+Attributes define the characteristics of an object, with each attribute holding different values.
+2. Understanding Objects through Examples:
+
+**2.1. Student Object:**
+**Attributes**: name, course, year, id.
+The id uniquely identifies objects of the same class.
+**Methods** (Behaviors): study(), writeExam().
+
+Attributes are referred to as state due to their ability to change over time, akin to the change of state in matter.
+
+**2.2. Book Object (Online Book Store):**
+
+**Attributes**: name, no.of.pages, author, edition, qty, available.
+**Methods**: purchase().
+
+**2.2. Book Object (Online Book Store):**
+
+**Attributes**:
+
+**Name: "Java 8"
+Number of Pages: 300
+Author: "ABC"
+Edition: 2nd
+Quantity: 3
+Availability: Yes**
+
+**Methods:**
+
+purchase():
+Action: Represents the process of buying a book from the online store.
+
+**Functionality:**
+Decreases the quantity of the book by 1.
+Updates the availability status accordingly.
+
+**Illustration of Purchase Transactions:**
+
+Initial State:
+
+Quantity: 3
+Availability: Yes
+User A Buys 1 Book:
+
+Action: User A purchases 1 copy of the book.
+Result:
+Quantity Decreased: 2
+Availability: Yes (Still available)
+User B Buys 1 Book:
+
+Action: User B purchases 1 copy of the book.
+
+Result:
+Quantity Decreased: 1
+Availability: Yes (Still available)
+
+**User C Buys Last Book:**
+
+Action: User C purchases the last available copy of the book.
+Result:
+**Quantity Decreased: 0
+Availability: No (Book out of stock)**
+
+**Conclusion:**
+Through the process of purchasing, the quantity of the book decreases until it is no longer available for purchase, demonstrating the change in state of the book object.
+
+**2.3. TV Object:**
+
+Attributes: LED, status, volume, channelNum, ChName, input mode.
+Methods: on(), off(), incVol(), decVol(), idle().
+Demonstrating state changes through TV operations.
+
+**3. Object-Oriented Principles:**
+
+**3.1. Encapsulation:**
+
+Hiding internal state and requiring all interaction to be performed through an object's methods.
+Example: Private class encapsulating variables and methods, objects 
+
+**3.2. Abstraction:**
+Presenting only the essential features of an object to the outside world, hiding implementation details.
+Example: Abstraction in file content through interfaces like NotePad.
+
+**4. Application of Object-Oriented Concepts:**
+**4.1. ATM Machine:**
+
+Logic for withdraw() and deposit() hidden, while user interacts through UI buttons.
+
+**4.2. Notepad Interface:**
+Interface providing a view with methods like save(), open(), new().
+ Windows OS:
+Complex logic encapsulated within the operating system, abstracting details from users.
+
+**5. Conclusion:**
+Understanding objects through real-world examples helps grasp fundamental object-oriented concepts.
+Encapsulation and abstraction play pivotal roles in organizing and managing complex systems effectively.
