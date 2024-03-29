@@ -1,5 +1,6 @@
 **DAY3 Task**
 
+**Question 1:**
 C - GNU compiler - .obj,.bak,.exe
 c++ - compiler- .obj,.exe
 
@@ -24,6 +25,15 @@ Inside JVM arch
 2. bytecode verifier - verifies .class file valid or not
 3. JIT/AOT - fastens the increase of execution speed
 4. security manager- security
+
+
+**Question 2:**
+JAVA SE
+JAVA EE
+JAVA ME
+
+why it is named as JDK, J2SE, Java SE
+
 
   **Q/N: format this based on yourunderstanding**
 
