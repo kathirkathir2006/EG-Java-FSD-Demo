@@ -1,3 +1,5 @@
+**DAY3 Task**
+
 C - GNU compiler - .obj,.bak,.exe
 c++ - compiler- .obj,.exe
 
@@ -23,4 +25,8 @@ Inside JVM arch
 3. JIT/AOT - fastens the increase of execution speed
 4. security manager- security
 
-   format this based on yourunderstanding
+  **Q/N: format this based on yourunderstanding**
+
+   To be completed by 30/03/2024 EOD (6pm)
+   Based on your understanding only - try
+   
