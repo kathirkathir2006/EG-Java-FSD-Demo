@@ -1,4 +1,4 @@
-# Levels of Abstraction in Programming Languages:
+![image](https://github.com/kathirkathir2006/EG-Java-FSD-Demo/assets/17041355/3ed84de7-684c-49c3-87d3-073103e9567d)# Levels of Abstraction in Programming Languages:
 
 Programming languages can be categorized based on their level of abstraction, which defines how closely the language aligns with machine code and hardware architecture. These levels of abstraction include:
 
@@ -207,3 +207,63 @@ Complex logic encapsulated within the operating system, abstracting details from
 **5. Conclusion:**
 Understanding objects through real-world examples helps grasp fundamental object-oriented concepts.
 Encapsulation and abstraction play pivotal roles in organizing and managing complex systems effectively.
+
+
+**Day3**
+
+**Day 4**
+
+### Java Source Code Standardization
+
+**1. Naming Conventions:**
+
+**Class Name and File Name:** Should be identical.
+**Class Naming**: Capitalize the first letter, follow Upper Camel Case (for multi-word class names).
+**Variables**: Lowercase, follow Lower Camel Case (for multi-word variable names).
+**Constants**: Completely uppercase, separated by underscores for readability.
+
+**2. Single Class per File:**
+Keep only one class per Java file to maintain clarity and organization.
+Every change in the source code should reflect in the output, necessitating recompilation.
+
+**3. Variables:**
+**Definition:** Variables represent data that can vary during program execution.
+**Naming:** Use meaningful names reflecting the data they hold.
+**Convention:** Lowercase for variables, with multi-word names following lower camel case.
+**Example:** int age;
+**Example:** String employeeName;
+
+**4. Constants:**
+**Definition:** Constants are values that do not change during program execution.
+Naming: Completely uppercase, with underscores separating words for clarity.
+Example: final double PI = 3.14159;
+Example: final int NO_DAYS = 7;
+5. Data Types:
+
+**Definition:** Data types specify the type of data a variable can hold and the operations that can be performed on it.
+Examples of Data Types:
+Integer: int, short, byte, long
+Floating-point: float, double
+Character: char
+Boolean: boolean
+
+**6. Literals:**
+![image](https://github.com/kathirkathir2006/EG-Java-FSD-Demo/assets/17041355/7c9ba6d8-0e43-4948-a6a0-5e341225a2aa)
+
+**Definition:** Literals are constant values assigned to variables directly in the code.
+**Examples of Literals:**
+**Integer Literal:** int x = 10;
+**Floating-point Literal:** double y = 3.14;
+**Character Literal:** char ch = 'A';
+**String Literal:** String name = "John";
+**Boolean Literal:** boolean flag = true;
+
+**7. Memory Management:**
+
+**Memory Address:** Each variable is stored in a memory location identified by its memory address.
+**Variable Name:** Assigned to memory addresses to facilitate easy data retrieval.
+**Example:** int age; - Here, age is the variable name assigned to hold an integer value.
+
+**Conclusion:**
+Adhering to standardized naming conventions and coding practices ensures readability, maintainability, and consistency across Java source code files. Following these conventions also aids in efficient memory management and reduces the likelihood of errors during compilation and execution. Additionally, understanding literals facilitates direct assignment of values to variables, enhancing code clarity and conciseness.
+
