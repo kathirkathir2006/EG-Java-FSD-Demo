@@ -1,4 +1,4 @@
-![image](https://github.com/kathirkathir2006/EG-Java-FSD-Demo/assets/17041355/3ed84de7-684c-49c3-87d3-073103e9567d)# Levels of Abstraction in Programming Languages:
+# Levels of Abstraction in Programming Languages:
 
 Programming languages can be categorized based on their level of abstraction, which defines how closely the language aligns with machine code and hardware architecture. These levels of abstraction include:
 
