@@ -267,3 +267,88 @@ Boolean: boolean
 **Conclusion:**
 Adhering to standardized naming conventions and coding practices ensures readability, maintainability, and consistency across Java source code files. Following these conventions also aids in efficient memory management and reduces the likelihood of errors during compilation and execution. Additionally, understanding literals facilitates direct assignment of values to variables, enhancing code clarity and conciseness.
 
+**Day 5:**
+
+### Operators:
+
+ Operators are fundamental elements in programming languages, serving to manipulate data in various ways. Here's an organized overview:
+
+**Operand**: The data on which operators act.
+**Operators**: Symbols that perform operations on operands.
+
+**Operands and Operators:**
+int operand1 = 10; // Operand
+int operand2 = 5; // Operand
+int result = operand1 + operand2; // Operator (+) acting on operands
+System.out.println("Result of addition: " + result); // Output: Result of addition: 15
+
+**Arithmetic Operators:**
+
+**+: Addition.**
+
+String-> not a datatype => its an Object
+String str="hello"; //will be converted to object (implicitly)
+//because of internal architecture
+
+**Example**: 10 + 10 = 20
+"hi" + " world" concatenates strings: "hi world"
+10 + 8 + "hi" + 9 results in "18hi9" due to string concatenation.
+
+**-:** **Subtraction**,  **'*': Multiplication.**
+
+**/: Division.**
+
+**Example**: 9 / 3 = 3 (quotient)
+2.5 / 2 = 1.25
+
+**%: Modulus (remainder).**
+
+**Example** : 9 % 3 = 0
+2.5 % 2 = 0
+
+		
+**assignment optr : '='**
+	is to assign value to a variable which is 	declared/defined
+	always declare/define variables which will be used 	intside the code
+	
+**declaration:** 
+		int a,b,c; 
+**initialization:**
+		int a=90; //90 is assign(=)ed to variable a
+	
+**+= -> compound assignment optr** => 	more than one optr is compound
+	*=
+	/=
+ 
+**eg:**
+	int a=0;
+	a+=2   //a=a+2;
+	sop(a); //2 
+
+	int b=2;
+	b*=2  //b=b*2;
+	sop(b) //4
+
+**increment/ decrement optr**
+	
+	++ means = > add 1 => +1
+	a++ => post-incr => a=a+1
+	
+	++a => pre-incr=> a=a+1
+
+int i=1;
+sop(i);
+i++;
+sop(i);
+ ===============================================
+**NOTE :** refer demo for remaining
+
+**Seminar**
+logical optr - 5 min
+======================
+&& - and - madan
+! - not - sai
+|| - or  - venkat
+===============================================
+
+
