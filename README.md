@@ -350,5 +350,106 @@ logical optr - 5 min
 ! - not - sai
 || - or  - venkat
 ===============================================
+**Day 5:**
+
+sequence Structures
+repetition Structures
+selection Structures
+
+control - condition/criteria
+
+if
+if..else
+else..if
+nested if
+
+Looping:
+
+arduino
+Copy code
+for
+while
+do...while
+enhanced for loop
+selection
+switch
+
+unconditional statements:
+
+continue;
+break;
+return;
+
+if:
+if(condn) //outcome of condn => T or F
+{
+//grp stmts
+}
+
+scss
+Copy code
+if(condn)
+	//one stmt alone
+condn can be T or F, if True below block of code or statement will get executed
+
+you can't write integer value in the place of condition, it requires only boolean value or expression that gives boolean as o/p
+
+if true and u need group of statements to be executed use block - {} -in the if part or inthe else part
+
+else will never ever have (), only if has
+in else if() - here only if has it
+
+System.out.println(2>1); // True
+System.out.println(4<10); // True
+System.out.println(4+10); // 14 // here expression gives int value, not boolean
+
+As much as possible use conditional optrs to get boolean outcomes in if
+
+logical optr -
+
+r
+Copy code
+&& - and
+	a>b && a>c  ----- T and T = T
+			  T and F = F
+			  F and T = F	 
+			  F and F = F
+|| - or
+	a>b || a>c  ----- T or T = T
+			  T or F = T
+			  F or T = T
+			  F or F = F
+Looping:
+int keys=10; // how many times u ll test --->10
+
+vbnet
+Copy code
+how many times - finite times -
+
+when we know no of execution - finite loops
+
+	eg: for loop or enhanced for
+
+when we know don't know no of execution - infinite loops
+
+	eg: while or do while loop
+for loop:
+
+sql
+Copy code
+for(initilization;test/condn;incr or decr)
+{
+	//block of statements	
+}
+
+//10 times - start=0  end point =9
+//10 times - start=1  end point =10
+	for(int i=0;i<10;i++)
+{
+	System.out.println("hi");
+}
+
+i++ will not be executed for the 1st time
+initialization and condn will be executed for the first time
 
 
