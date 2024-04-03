@@ -452,4 +452,86 @@ for(initilization;test/condn;incr or decr)
 i++ will not be executed for the 1st time
 initialization and condn will be executed for the first time
 
+**day 5:**
+
+int a = 9;
+int b = 90;
+
+if (a > b)
+    sop("a great");
+else
+    sop("b great");
+
+int r = 2 + 3 == 5;
+Here's the updated version of the notes:
+
+Java Programming Fundamentals
+
+Ternary Operator:
+
+Ternary operator condition ? trueValue : falseValue is a shorthand for an if-else statement.
+It can be used to assign a value based on a condition.
+Example: result = a > b ? "a is great" : "b is great";
+If any value (string, integer, float, object) is written in the true or false part, it will be automatically returned.
+Loops:
+
+For loop syntax: for (initialization; condition; update) { }
+While loop syntax: while (condition) { }
+Do-while loop syntax: do { } while (condition);
+Classes and Objects:
+
+Class Structure:
+java
+Copy code
+class ClassName {
+    // variables
+    // methods
+}
+Example:
+java
+Copy code
+class Account {
+    long accountId;
+    String accountName;
+    float balance;
+    String address;
+    long mobileNumber;
+
+    void withdraw(float amount) {}
+    void updateAccount() {}
+    void transfer(to, amount) {}
+}
+Methods vs. Functions:
+Methods are functions defined within a class.
+Functions can be standalone.
+Static vs. Instance Variables:
+
+Instance Variable: Belongs to each instance of the class (each object).
+Static Variable: Belongs to the class itself and is shared among all instances of the class.
+Setting Up Java Projects:
+
+Open Eclipse.
+Ensure you are in Java perspective.
+Follow the steps:
+File -> New -> Java Project.
+Provide a valid Project Name and click Finish.
+Additional Notes:
+
+Comparison and Calculation:
+java
+Copy code
+int a = 9;
+int b = 90;
+
+if (a > b)
+    sop("a great");
+else
+    sop("b great");
+
+int r = 2 + 3 == 5;
+Infinite Loops:
+Be careful with infinite loops. Ensure that the loop condition allows termination.
+Static Variables:
+Use static variables when you want a variable to be shared among all instances of a class.
+Now, the notes include the missed content about the comparison between a and b, as well as the calculation of r. Let me know if there's anything else you'd like to add or modify!
 
