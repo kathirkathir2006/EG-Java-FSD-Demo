@@ -535,3 +535,64 @@ Static Variables:
 Use static variables when you want a variable to be shared among all instances of a class.
 Now, the notes include the missed content about the comparison between a and b, as well as the calculation of r. Let me know if there's anything else you'd like to add or modify!
 
+
+**recap day**
+
+type var=value;
+lhs=rhs;
+
+int a=90;
+float fl=90.5f;
+boolean st=true;
+
+ClassName obj=null; //refrence variable //by default it points to null (nothing)
+//if u want u can assign null as its value
+obj=new Constr(); //(rhs) - is object
+
+
+Anonymous - no name
+
+new Car(); //anonymous object // these are like One Time usage
+//its not reusable
+//will make call to constr
+
+//new - everytime it allocates new memory
+
+Car c=new Car(); 
+c.var1;
+//its  reusable, why because its given a programmatic name which is 'c'
+//will make call to constr
+c.var2;
+
+
+
+every java program has a parent - cosmic parent class - java.lang.Object
+
+every java program has some default import statement , it imports a pkg
+import java.lang.*;
+
+//implicitly - compiler
+class A extends Object{
+}
+
+access modifiers: 
+
+packages - folders
+
+oraganizing things- 
+
+
+
+pkg - grouping of related classes and interfaces
+
+com.it
+	class Student
+	Tutor
+	class Student ---X
+		
+com.in
+	class  Student --- Yes
+
+
+com.it.Student - fully qualified name of class
+com.in.Student
