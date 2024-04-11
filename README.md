@@ -596,3 +596,34 @@ com.in
 
 com.it.Student - fully qualified name of class
 com.in.Student
+
+### Constructors
+
+Constructors, akin to methods, consist of code blocks.
+They are triggered upon the instantiation of a class.
+During constructor invocation, memory allocation for the object takes place in the memory heap.
+Constructors serve the purpose of object initialization.
+Whenever an object is instantiated using the new() keyword, at least one constructor is invoked.
+
+**Note:** It is called constructor because it constructs the values at the time of object creation. It is not necessary to write a constructor for a class. It is because java compiler creates a default constructor if your class doesn't have any.
+
+**Rules for creating Java constructor**
+Constructor name must be the same as its class name
+A Constructor must have no explicit return type
+A Java constructor cannot be abstract, static, final, and synchronized
+
+**Note:** We can use access modifiers while declaring a constructor. It controls the object creation. In other words, we can have private, protected, public or default constructor in Java.
+
+**Types of Java constructors : 3 types**
+
+Default constructor 
+No-arg constructor
+Parameterized constructor
+
+**Java Default Constructor:** 
+created by compiler 
+constructor with no parameter
+used to provide default values to the objects)instance variable) like 0,null...
+**Syntax:** <class_name>(){}   
+
+
